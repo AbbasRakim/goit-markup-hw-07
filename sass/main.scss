@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./utils/base-styles";
+
+@import "./layout/header-page";
+@import "./layout/hero-page";
+@import "./layout/features";
+@import "./layout/examples";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer-page";
+
+/* Портфолио */
+@import "./layout/portfolio";
+
+/* Модальное окно */
+@import "./layout/modal";
+
+@import "./components/logo";
+@import "./components/social-links";
+@import "./components/button";
