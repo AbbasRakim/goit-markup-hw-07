@@ -130,10 +130,10 @@
       letter-spacing: 0.01em;
 
       color: rgba(117, 117, 117, 0.5);
-      &:focus {
-        outline: none;
-        border: 1px solid var(--accent-color);
-      }
+    }
+    &:focus {
+      outline: none;
+      border: 1px solid var(--accent-color);
     }
   }
 }
@@ -149,19 +149,19 @@
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-color);
-  & a {
+  &::before {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid #212121;
+    border-radius: 2px;
+
+    margin-right: 7px;
+  }
+  a {
     color: var(--accent-color);
     text-decoration: underline;
-    &::before {
-      display: inline-block;
-      content: "";
-      width: 15px;
-      height: 15px;
-      border: 1px solid #212121;
-      border-radius: 2px;
-
-      margin-right: 7px;
-    }
   }
 }
 

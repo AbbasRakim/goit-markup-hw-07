@@ -18,8 +18,8 @@
     &:hover,
     &:focus {
       border: 1px solid var(--accent-color);
-      &:hover &,
-      &:focus & {
+      &:hover .clients-member__icon,
+      &:focus .clients-member__icon {
         fill: var(--accent-color);
       }
     }
