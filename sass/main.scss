@@ -6,8 +6,8 @@ body {
 }
 
 @import "./utils/variables";
-@import "./utils/reset";
-@import "./utils/base-styles";
+@import "./base/reset";
+@import "./base/base-styles";
 
 @import "./layout/header-page";
 @import "./layout/hero-page";
