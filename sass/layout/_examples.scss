@@ -5,7 +5,7 @@
   &__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__thumb {
+  .example__thumb {
     position: relative;
     display: flex;
     &::after {
@@ -21,7 +21,7 @@
       z-index: 1;
     }
   }
-  &__paragraph {
+  .example__paragraph {
     position: absolute;
     bottom: 0;
 

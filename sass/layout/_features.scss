@@ -1,13 +1,13 @@
 .feature {
   display: flex;
   flex-wrap: wrap;
-  &__item {
+  .feature__item {
     width: 270px;
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
-  &__box {
+  .feature__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,7 +19,7 @@
     background: #f5f4fa;
     border-radius: 4px;
   }
-  &__title {
+  .feature__title {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -27,7 +27,7 @@
     line-height: 1.14;
     text-transform: uppercase;
   }
-  &__paragraph {
+  .feature__paragraph {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;

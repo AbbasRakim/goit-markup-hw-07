@@ -13,7 +13,7 @@
       ),
       url(../images/headerbg.jpg);
   }
-  &__title {
+  .hero-page__title {
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -23,7 +23,7 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
   }
-  &__button {
+  .hero-page__button {
     padding: 10px 32px;
     &:hover,
     &:focus {
